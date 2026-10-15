@@ -6,6 +6,7 @@
   "languages": ["en", "vi"],
   "ads": "admob",
   "privacy_options_in_app": true,
+  "reset_progress_in_app": true,
   "min_age": 13,
   "legacy_root": true,
   "text": {

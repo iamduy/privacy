@@ -10,6 +10,7 @@
   "summary_no_ads": "Ứng dụng không hiển thị quảng cáo và không chứa công cụ theo dõi của bên thứ ba.",
   "local_h": "Dữ liệu lưu trên máy của bạn",
   "local_p": "{local_data} chỉ được lưu trên thiết bị của bạn; chúng tôi không nhận được dữ liệu này. Nếu bạn bật sao lưu thiết bị (iCloud hoặc Google), dữ liệu có thể nằm trong bản sao lưu của chính bạn và được khôi phục khi cài lại. Gỡ ứng dụng sẽ xoá dữ liệu này khỏi máy.",
+  "local_reset": "Bạn cũng có thể xoá tiến trình chơi ngay trong ứng dụng tại <strong>Cài đặt → Đặt lại tiến trình</strong>; cài đặt của bạn được giữ nguyên.",
   "admob_h": "Quảng cáo (Google AdMob)",
   "admob_p": "Ứng dụng dùng Google AdMob để hiển thị quảng cáo. Để hiển thị và đo lường quảng cáo, Google có thể thu thập:",
   "admob_items": [

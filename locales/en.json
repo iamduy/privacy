@@ -10,6 +10,7 @@
   "summary_no_ads": "The app shows no ads and contains no third-party tracking.",
   "local_h": "Data stored on your device",
   "local_p": "{local_data} are stored only on your device; we never receive this data. If you turn on device backup (iCloud or Google), it may be included in your own backup and restored when you reinstall. Uninstalling the app removes this data from your device.",
+  "local_reset": "You can also erase your game progress in the app at <strong>Settings → Reset progress</strong>; your settings are kept.",
   "admob_h": "Advertising (Google AdMob)",
   "admob_p": "The app uses Google AdMob to show ads. To serve and measure ads, Google may collect:",
   "admob_items": [

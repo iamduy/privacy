@@ -26,6 +26,7 @@ Các file sinh ra (được commit, đừng sửa tay):
    - `languages`: các ngôn ngữ cần sinh, mỗi ngôn ngữ phải có trong `locales/` và trong `text`
    - `ads`: `"admob"` hoặc `null` (không quảng cáo)
    - `privacy_options_in_app`: `true` nếu trong game có mục **Cài đặt → Tùy chọn quyền riêng tư** (UMP consent)
+   - `reset_progress_in_app`: `true` nếu trong game có mục **Cài đặt → Đặt lại tiến trình** (xoá dữ liệu trên máy)
    - `min_age`: độ tuổi tối thiểu
    - bỏ `legacy_root` (chỉ Color Flood dùng)
    - `text.<lang>.intro`: đoạn giới thiệu game

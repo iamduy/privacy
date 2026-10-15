@@ -80,7 +80,7 @@ def policy_page(game, lang):
            "</div>",
            "",
            f"<h2>{s('local_h')}</h2>",
-           f"<p>{s('local_p')}</p>"]
+           f"<p>{s('local_p')}" + (f" {s('local_reset')}" if game.get("reset_progress_in_app") else "") + "</p>"]
 
     if ads == "admob":
         choices = []

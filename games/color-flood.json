@@ -1,0 +1,21 @@
+{
+  "name": "Color Flood",
+  "effective_date": "2026-10-15",
+  "developer": "Joey Studio",
+  "contact_email": "duongkhanhduy.dev@gmail.com",
+  "languages": ["en", "vi"],
+  "ads": "admob",
+  "privacy_options_in_app": true,
+  "min_age": 13,
+  "legacy_root": true,
+  "text": {
+    "en": {
+      "intro": "Color Flood is a color-filling puzzle game. This page explains what data is used when you play and what choices you have.",
+      "local_data": "Level progress, stars, statistics and settings (sound, theme, language)"
+    },
+    "vi": {
+      "intro": "Color Flood là trò chơi giải đố tô màu. Trang này giải thích dữ liệu nào được dùng khi bạn chơi và bạn có những lựa chọn gì.",
+      "local_data": "Tiến trình màn chơi, số sao, thống kê và cài đặt (âm thanh, chủ đề, ngôn ngữ)"
+    }
+  }
+}

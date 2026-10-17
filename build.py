@@ -6,6 +6,7 @@ Output (committed, served by GitHub Pages from the repo root):
   <slug>/index.html    redirect to the game's first language
   index.html           list of all games
   en.html, vi.html     legacy redirects for the game marked "legacy_root"
+  <old_slug>/...       redirects from each of the game's "old_slugs" (renamed games)
 
 Usage: python3 build.py
 """
@@ -159,6 +160,9 @@ def main():
         if g.get("legacy_root"):
             for lang in g["languages"]:
                 write(ROOT / f"{lang}.html", redirect_page(f"{g['slug']}/{lang}.html", f"{g['name']} Privacy Policy"))
+        for old in g.get("old_slugs", []):
+            for page in [*g["languages"], "index"]:
+                write(ROOT / old / f"{page}.html", redirect_page(f"../{g['slug']}/{page}.html", f"{g['name']} Privacy Policy"))
 
     write(ROOT / "index.html", index_page(games))
 

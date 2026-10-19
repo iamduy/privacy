@@ -26,6 +26,7 @@ Các file sinh ra (được commit, đừng sửa tay):
    - `name`, `effective_date` (YYYY-MM-DD), `developer`, `contact_email`
    - `languages`: các ngôn ngữ cần sinh, mỗi ngôn ngữ phải có trong `locales/` và trong `text`
    - `ads`: `"admob"` hoặc `null` (không quảng cáo)
+   - `crash_reporting`: `"firebase_crashlytics"` nếu game gửi báo cáo lỗi lên Firebase Crashlytics, hoặc bỏ trường này
    - `privacy_options_in_app`: `true` nếu trong game có mục **Cài đặt → Tùy chọn quyền riêng tư** (UMP consent)
    - `reset_progress_in_app`: `true` nếu trong game có mục **Cài đặt → Đặt lại tiến trình** (xoá dữ liệu trên máy)
    - `min_age`: độ tuổi tối thiểu

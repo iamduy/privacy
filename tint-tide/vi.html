@@ -10,7 +10,7 @@
 <main>
   <span class="lang"><a href="en.html" hreflang="en">English</a></span>
   <h1>Chính sách bảo mật của Tint Tide</h1>
-  <p class="meta">Ngày hiệu lực: 15/10/2026 · Nhà phát triển: Joey Studio</p>
+  <p class="meta">Ngày hiệu lực: 19/10/2026 · Nhà phát triển: Joey Studio</p>
 
   <p>Tint Tide là trò chơi giải đố tô màu. Trang này giải thích dữ liệu nào được dùng khi bạn chơi và bạn có những lựa chọn gì.</p>
 
@@ -20,6 +20,7 @@
       <li>Không có tài khoản, không cần đăng nhập.</li>
       <li>Chúng tôi không thu thập dữ liệu cá nhân và không có máy chủ riêng.</li>
       <li>Ứng dụng hiển thị quảng cáo của Google AdMob; Google có thể thu thập một số dữ liệu như mô tả bên dưới.</li>
+      <li>Khi ứng dụng gặp sự cố, một báo cáo lỗi ẩn danh được gửi tới Firebase Crashlytics (Google) để chúng tôi sửa lỗi.</li>
     </ul>
   </div>
 
@@ -42,6 +43,15 @@
     <li>Trên Android, bạn có thể đặt lại hoặc xoá ID quảng cáo tại <strong>Cài đặt → Quyền riêng tư → Quảng cáo</strong> (tên mục có thể khác tuỳ máy).</li>
   </ul>
   <p>Nếu bạn từ chối, bạn vẫn chơi bình thường; quảng cáo (nếu có) sẽ không được cá nhân hoá.</p>
+
+  <h2>Báo cáo lỗi (Firebase Crashlytics)</h2>
+  <p>Để phát hiện và sửa lỗi, ứng dụng dùng Firebase Crashlytics, một dịch vụ của Google. Khi ứng dụng bị văng hoặc gặp lỗi bất thường, một báo cáo được gửi tới Google gồm:</p>
+  <ul>
+    <li>chi tiết kỹ thuật của lỗi (stack trace) và trạng thái ứng dụng tại thời điểm đó;</li>
+    <li>model thiết bị, phiên bản hệ điều hành và phiên bản ứng dụng;</li>
+    <li>một mã cài đặt ngẫu nhiên do Firebase tạo, không gắn với bạn, tài khoản của bạn hay ID quảng cáo.</li>
+  </ul>
+  <p>Báo cáo lỗi không chứa dữ liệu cá nhân, tiến trình chơi hay thông tin tài khoản; chúng tôi chỉ dùng để sửa lỗi. Google xử lý dữ liệu này thay chúng tôi theo điều khoản <a href="https://firebase.google.com/support/privacy?hl=vi">Quyền riêng tư và bảo mật của Firebase</a> và <a href="https://policies.google.com/privacy?hl=vi">Chính sách quyền riêng tư của Google</a>. Báo cáo được lưu trong 90 ngày.</p>
 
   <h2>Trẻ em</h2>
   <p>Tint Tide không hướng tới trẻ em dưới 13 tuổi. Quảng cáo trong ứng dụng được giới hạn ở nội dung phù hợp với mọi lứa tuổi.</p>

@@ -1,15 +1,21 @@
 {
   "name": "Tint Tide",
-  "effective_date": "2026-10-15",
+  "effective_date": "2026-10-19",
   "developer": "Joey Studio",
   "contact_email": "duongkhanhduy.dev@gmail.com",
-  "languages": ["en", "vi"],
+  "languages": [
+    "en",
+    "vi"
+  ],
   "ads": "admob",
+  "crash_reporting": "firebase_crashlytics",
   "privacy_options_in_app": true,
   "reset_progress_in_app": true,
   "min_age": 13,
   "legacy_root": true,
-  "old_slugs": ["color-flood"],
+  "old_slugs": [
+    "color-flood"
+  ],
   "text": {
     "en": {
       "intro": "Tint Tide is a color-filling puzzle game. This page explains what data is used when you play and what choices you have.",

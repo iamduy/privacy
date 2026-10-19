@@ -60,12 +60,15 @@ def policy_page(game, lang):
     }
     s = lambda key: L[key].format(**v)  # noqa: E731
     ads = game.get("ads")
+    crash = game.get("crash_reporting")
 
     others = [o for o in game["languages"] if o != lang]
     switch = " ".join(f'<a href="{o}.html" hreflang="{o}">{LOCALES[o]["lang_name"]}</a>' for o in others)
 
     summary = [s("summary_no_account"), s("summary_no_collect")]
     summary.append(s("summary_ads_admob") if ads == "admob" else s("summary_no_ads"))
+    if crash == "firebase_crashlytics":
+        summary.append(s("summary_crash_firebase"))
 
     out = [f'<span class="lang">{switch}</span>'] if switch else []
     out += [f"<h1>{s('h1')}</h1>",
@@ -99,6 +102,15 @@ def policy_page(game, lang):
                 f"<p>{s('choices_decline')}</p>"]
     elif ads:
         raise SystemExit(f"{game['slug']}: unsupported ads provider {ads!r}")
+
+    if crash == "firebase_crashlytics":
+        out += ["",
+                f"<h2>{s('crash_h')}</h2>",
+                f"<p>{s('crash_p')}</p>",
+                "<ul>", *[f"  <li>{x}</li>" for x in L["crash_items"]], "</ul>",
+                f"<p>{s('crash_policies')}</p>"]
+    elif crash:
+        raise SystemExit(f"{game['slug']}: unsupported crash reporting provider {crash!r}")
 
     for sec in t.get("extra_sections", []):
         out += ["", f"<h2>{sec['heading']}</h2>", sec["html"]]

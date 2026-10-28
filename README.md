@@ -27,6 +27,7 @@ Các file sinh ra (được commit, đừng sửa tay):
    - `languages`: các ngôn ngữ cần sinh, mỗi ngôn ngữ phải có trong `locales/` và trong `text`
    - `ads`: `"admob"` hoặc `null` (không quảng cáo)
    - `crash_reporting`: `"firebase_crashlytics"` nếu game gửi báo cáo lỗi lên Firebase Crashlytics, hoặc bỏ trường này
+   - `analytics`: `"firebase_analytics"` nếu game gửi sự kiện chơi lên Google Analytics for Firebase, hoặc bỏ trường này
    - `privacy_options_in_app`: `true` nếu trong game có mục **Cài đặt → Tùy chọn quyền riêng tư** (UMP consent)
    - `reset_progress_in_app`: `true` nếu trong game có mục **Cài đặt → Xóa tiến độ** / **Settings → Reset progress** (xóa dữ liệu trên máy)
    - `min_age`: độ tuổi tối thiểu
@@ -38,4 +39,4 @@ Các file sinh ra (được commit, đừng sửa tay):
 
 Link khai báo trên App Store / Google Play: `https://iamduy.github.io/privacy/<slug>/en.html`.
 
-Thêm SDK mới (ví dụ Firebase Analytics) dùng cho nhiều game: thêm câu chữ vào `locales/*.json` và một nhánh trong `policy_page()` của `build.py`, giống cách `admob` đang làm.
+Thêm SDK mới (ví dụ dịch vụ mua trong ứng dụng) dùng cho nhiều game: thêm câu chữ vào `locales/*.json` và một nhánh trong `policy_page()` của `build.py`, giống cách `admob` đang làm.

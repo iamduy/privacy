@@ -1,6 +1,6 @@
 {
   "name": "Tint Tide",
-  "effective_date": "2026-10-19",
+  "effective_date": "2026-10-28",
   "developer": "Joey Studio",
   "contact_email": "duongkhanhduy.dev@gmail.com",
   "languages": [
@@ -9,6 +9,7 @@
   ],
   "ads": "admob",
   "crash_reporting": "firebase_crashlytics",
+  "analytics": "firebase_analytics",
   "privacy_options_in_app": true,
   "reset_progress_in_app": true,
   "min_age": 13,

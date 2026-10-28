@@ -28,7 +28,7 @@ Các file sinh ra (được commit, đừng sửa tay):
    - `ads`: `"admob"` hoặc `null` (không quảng cáo)
    - `crash_reporting`: `"firebase_crashlytics"` nếu game gửi báo cáo lỗi lên Firebase Crashlytics, hoặc bỏ trường này
    - `privacy_options_in_app`: `true` nếu trong game có mục **Cài đặt → Tùy chọn quyền riêng tư** (UMP consent)
-   - `reset_progress_in_app`: `true` nếu trong game có mục **Cài đặt → Đặt lại tiến trình** (xoá dữ liệu trên máy)
+   - `reset_progress_in_app`: `true` nếu trong game có mục **Cài đặt → Xóa tiến độ** / **Settings → Reset progress** (xóa dữ liệu trên máy)
    - `min_age`: độ tuổi tối thiểu
    - bỏ `legacy_root` và `old_slugs` (chỉ Tint Tide dùng)
    - `text.<lang>.intro`: đoạn giới thiệu game

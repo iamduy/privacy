@@ -11,7 +11,7 @@
   "summary_crash_firebase": "Khi ứng dụng gặp sự cố, một báo cáo lỗi ẩn danh được gửi tới Firebase Crashlytics (Google) để chúng tôi sửa lỗi.",
   "local_h": "Dữ liệu lưu trên máy của bạn",
   "local_p": "{local_data} chỉ được lưu trên thiết bị của bạn; chúng tôi không nhận được dữ liệu này. Nếu bạn bật sao lưu thiết bị (iCloud hoặc Google), dữ liệu có thể nằm trong bản sao lưu của chính bạn và được khôi phục khi cài lại. Gỡ ứng dụng sẽ xoá dữ liệu này khỏi máy.",
-  "local_reset": "Bạn cũng có thể xoá tiến trình chơi ngay trong ứng dụng tại <strong>Cài đặt → Đặt lại tiến trình</strong>; cài đặt của bạn được giữ nguyên.",
+  "local_reset": "Bạn cũng có thể xóa tiến độ chơi ngay trong ứng dụng tại <strong>Cài đặt → Xóa tiến độ</strong>; cài đặt của bạn được giữ nguyên.",
   "admob_h": "Quảng cáo (Google AdMob)",
   "admob_p": "Ứng dụng dùng Google AdMob để hiển thị quảng cáo. Để hiển thị và đo lường quảng cáo, Google có thể thu thập:",
   "admob_items": [
